@@ -117,4 +117,14 @@ img.welcome-image {
     text-align: center;
 }
 
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px;
+    text-align: center;
+}
+
 
