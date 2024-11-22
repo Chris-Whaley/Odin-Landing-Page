@@ -11,6 +11,13 @@ ul {
     display: flex;
 }
 
+/* Header section and welcome paragraph with image */
+.header-and-title {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
 .header-section {
     display: flex;
     align-items: center;
@@ -32,4 +39,24 @@ ul {
     flex: 0 0 auto;
     gap: 20px;
 
+}
+
+/* Title */
+.title-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+img.welcome-image {
+    display: flex;
+    align-items: center;
+    flex: 0 1 25px;
+    max-width: 500px;
 }
