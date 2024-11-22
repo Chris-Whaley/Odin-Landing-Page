@@ -13,6 +13,23 @@ ul {
 
 .header-section {
     display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.header-links {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 0 auto;
+    gap: 20px;
+
 }
