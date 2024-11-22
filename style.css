@@ -72,7 +72,9 @@ button {
     padding: 10px;
     border-radius: 10px;
     width: 125px;
-    height: 50px;
+    height: 40px;
+    text-align: center;
+    text-justify: center;
 }
 
 img.welcome-image {
@@ -81,3 +83,38 @@ img.welcome-image {
     flex: 0 1 25px;
     max-width: 500px;
 }
+
+/* Content Section */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+.content-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-images img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 25px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.content-images p {
+    text-align: center;
+}
+
+
