@@ -70,11 +70,12 @@ button {
     color: #E5E7EB;
     font-size: 18px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 125px;
     height: 40px;
     text-align: center;
     text-justify: center;
+    transition-duration: 0.4s;
 }
 
 img.welcome-image {
@@ -127,5 +128,37 @@ img.welcome-image {
     padding: 100px;
     text-align: center;
 }
+
+/* Signup Section */
+.signup-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 50px;
+    align-items: center;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 1 auto;
+    border: 2px solid #E5E7EB;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: #3882F6;
+  }
 
 
