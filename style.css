@@ -151,7 +151,7 @@ img.welcome-image {
 .signup-button {
     display: flex;
     justify-content: space-evenly;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     border: 2px solid #E5E7EB;
     
 }
