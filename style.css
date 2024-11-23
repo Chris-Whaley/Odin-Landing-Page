@@ -161,4 +161,12 @@ button:hover {
     color: #3882F6;
   }
 
+/* Footer Section */
+.footer-section {
+    color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    flex: 0 0 auto;
+}
+
 
